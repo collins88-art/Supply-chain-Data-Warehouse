@@ -1,15 +1,117 @@
-# Supply Chain Data Warehouse
+# 🚀 Supply Chain Data Warehouse (SQL Server Project)
 
-Welcome to the **Supply Chain Data Warehouse Project**.
+## 📌 Project Overview
 
-This project demonstrates how to build a **modern data warehouse using SQL Server** by implementing the **Medallion Architecture (Bronze, Silver, Gold)**. The warehouse integrates data from simulated **ERP and CRM systems** and transforms raw data into clean, analytics-ready datasets.
+This project demonstrates the design and implementation of a **data warehouse** using SQL Server, focusing on building a structured ETL pipeline from raw data to clean, reliable datasets.
 
-The goal of this project is to practice key **data engineering concepts**, including:
+The project integrates data from multiple source systems (ERP & CRM) and applies data cleaning, transformation, and validation techniques to prepare the data for analysis.
 
-* Data ingestion from source systems
-* ETL pipeline design
-* Data transformation and cleaning
-* Data warehouse architecture
+---
 
+## 🏗️ Architecture
 
+The project follows a layered approach:
+
+### 🥉 Bronze Layer (Raw Data)
+
+* Data loaded directly from CSV files
+* No transformations applied
+* Stores raw data as received from source systems
+
+### 🥈 Silver Layer (Cleaned Data)
+
+* Data is cleaned and standardized
+* Duplicate records removed
+* Inconsistent values corrected
+* Data types converted (e.g., text → numeric)
+* Ready for analytical use
+
+---
+
+## 📂 Data Sources
+
+### CRM System
+
+* Customers
+* Orders
+* Returns
+
+### ERP System
+
+* Products
+* Suppliers
+* Inventory Movements
+
+---
+
+##  Data Generation
+
+Data for this project is generated using Python and the Faker library to simulate realistic ERP and CRM systems.
+
+* Synthetic data mimics real-world scenarios
+* Includes messy data (nulls, duplicates, inconsistent values)
+* Helps practice real data cleaning and transformation tasks
+
+📁 A small sample dataset is included for quick testing
+📁 Full datasets can be regenerated using the provided Python script
+
+---
+
+## ⚙️ ETL Pipeline
+
+### 🔹 Bronze Load
+
+* Data loaded using `BULK INSERT`
+* Stored procedure: `bronze.load_bronze`
+* Includes execution time tracking
+
+### 🔹 Silver Load
+
+* Data cleaned and transformed using SQL
+* Stored procedure: `silver.load_silver`
+* Key transformations include:
+
+  * Deduplication using `ROW_NUMBER()`
+  * Standardization (`TRIM`, `UPPER`)
+  * Handling invalid values
+  * Safe type conversion (`TRY_CAST`)
+
+---
+
+## 🔍 Data Quality Checks
+
+Data quality checks are performed before loading into the Silver layer:
+
+* Detection of duplicates and NULL primary keys
+* Identification of invalid numeric values
+* Validation of text consistency (e.g., country names)
+* Date range verification
+
+---
+
+## 🧰 Technologies Used
+
+* SQL Server
+* T-SQL (Stored Procedures, Window Functions)
+* CSV Files (Source Data)
+* Python (Faker for data generation)
+
+---
+
+## 📊 Key Features
+
+* Structured ETL pipeline (Bronze → Silver)
+* Realistic messy data simulation
+* Data cleaning and transformation logic
+* Execution time tracking
+
+---
+
+## 👤 Author
+
+**Asante Collins**
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 

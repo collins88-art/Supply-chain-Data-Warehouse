@@ -52,9 +52,6 @@ Data for this project is generated using Python and the Faker library to simulat
 * Includes messy data (nulls, duplicates, inconsistent values)
 * Helps practice real data cleaning and transformation tasks
 
-📁 A small sample dataset is included for quick testing
-📁 Full datasets can be regenerated using the provided Python script
-
 ---
 
 ## ⚙️ ETL Pipeline

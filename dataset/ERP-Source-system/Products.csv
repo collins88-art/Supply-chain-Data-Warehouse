@@ -1,0 +1,101 @@
+product_id,product_name,category,supplier_id,unit_price
+P001,Webcam,Electronics,S009,1029
+P002,Keyboard,Furniture,S005,724
+P003,Laptop Stand,Electronics,S005,1276
+P004,Laptop Stand,Electronics,S018,343
+P005,Docking Station,Electronics,S018,152
+P006,Laptop Stand,Furniture,S017,557
+P007,Laptop,Accessories,S008,572
+P008,Laptop Stand,Furniture,S017,1395
+P009,Mouse,Accessories,S002,1373
+P010,Office Chair,Accessories,S002,65
+P011,Mouse Pad,Accessories,S011,1128
+P012,USB Hub,Electronics,S007,609
+P013,Mouse Pad,Furniture,S012,1274
+P014,Laptop,Accessories,S010,525
+P015,Standing Desk,Electronics,S015,447
+P016,Laptop Stand,Electronics,S014,1173
+P017,Mouse,Furniture,S012,737
+P018,Desk,Electronics,S011,1284
+P019,Standing Desk,Accessories,S003,1011
+P020,Office Chair,Electronics,S003,887
+P021,Docking Station,Furniture,S002,801
+P022,Office Chair,Furniture,S019,313
+P023,Standing Desk,Furniture,S010,321
+P024,Office Chair,Electronics,S018,1318
+P025,Laptop Stand,Electronics,S020,429
+P026,Desk,Accessories,S017,1122
+P027,Office Chair,Electronics,S010,1218
+P028,Desk,Accessories,S019,1467
+P029,Keyboard,Accessories,S003,824
+P030,Desk,Accessories,S020,1406
+P031,Docking Station,Furniture,S020,1318
+P032,Mouse,Furniture,S004,828
+P033,Mouse,Accessories,S002,807
+P034,USB Hub,Electronics,S013,311
+P035,USB Hub,Electronics,S013,599
+P036,Laptop,Electronics,S001,397
+P037,Docking Station,Furniture,S011,203
+P038,Keyboard,Furniture,S014,688
+P039,Office Chair,Electronics,S003,67
+P040,Cabinet,Accessories,S019,108
+P041,Standing Desk,Furniture,S001,824
+P042,Laptop,Accessories,S014,37
+P043,Monitor,Electronics,S003,969
+P044,Keyboard,Accessories,S007,240
+P045,Keyboard,Furniture,S019,1457
+P046,Mouse,Electronics,S008,963
+P047,Laptop Stand,Accessories,S010,1101
+P048,Mouse,Furniture,S018,821
+P049,Laptop Stand,Furniture,S017,771
+P050,Desk,Accessories,S001,928
+P051,Webcam,Electronics,S020,430
+P052,USB Hub,Accessories,S017,473
+P053,Mouse Pad,Furniture,S016,631
+P054,Docking Station,Electronics,S018,600
+P055,Desk,Furniture,S012,469
+P056,Laptop,Furniture,S013,509
+P057,Keyboard,Accessories,S019,403
+P058,Docking Station,Furniture,S008,617
+P059,Mouse Pad,Accessories,S018,528
+P060,Desk,Electronics,S003,713
+P061,Keyboard,Electronics,S020,283
+P062,Docking Station,Furniture,S011,1396
+P063,Standing Desk,Electronics,S010,91
+P064,Laptop Stand,Accessories,S010,135
+P065,Docking Station,Electronics,S008,544
+P066,Webcam,Furniture,S019,270
+P067,Keyboard,Electronics,S012,894
+P068,Desk,Accessories,S008,645
+P069,Keyboard,Furniture,S016,333
+P070,USB Hub,Accessories,S001,590
+P071,Standing Desk,Accessories,S004,281
+P072,Desk,Furniture,S006,499
+P073,Webcam,Electronics,S009,929
+P074,USB Hub,Accessories,S007,1303
+P075,Office Chair,Electronics,S018,410
+P076,USB Hub,Electronics,S012,1015
+P077,Desk,Electronics,S014,1426
+P078,Docking Station,Electronics,S011,415
+P079,Keyboard,Electronics,S008,139
+P080,Mouse,Furniture,S019,1360
+P081,Laptop Stand,Accessories,S005,389
+P082,Mouse Pad,Electronics,S002,592
+P083,Laptop Stand,Furniture,S013,571
+P084,Monitor,Furniture,S016,145
+P085,Laptop,Furniture,S013,781
+P086,Laptop Stand,Electronics,S015,1070
+P087,USB Hub,Accessories,S015,210
+P088,Desk,Electronics,S004,417
+P089,Standing Desk,Furniture,S005,695
+P090,Laptop,Accessories,S008,449
+P091,Office Chair,Electronics,S007,269
+P092,USB Hub,Accessories,S018,1349
+P093,Docking Station,Electronics,S014,1241
+P094,Laptop Stand,Furniture,S009,208
+P095,Webcam,Furniture,S001,666
+P096,Laptop,Electronics,S009,299
+P097,Office Chair,Accessories,S007,747
+P098,Webcam,Electronics,S016,95
+P099,Cabinet,Furniture,S012,605
+P100,Monitor,Accessories,S018,935

@@ -1,0 +1,75 @@
+-- # GOLD LAYER VIEW METADATA CATALOG
+--This layer consist of dimension tables and fact tables for analysis and reporting for specific business metrics
+-- ## Purpose
+-- Structured metadata documentation for Gold layer analytical views.
+-- This provide a  description about each column in each View 
+-- from the Supply Chain Data Warehouse project.
+--
+-- ---
+
+
+
+-- ## View: gold.dim_suppliers
+--Provide description about suppliers and thier attributes
+--
+-- | Column Name   | Data Type     | Description                                      |
+-- |---------------|---------------|--------------------------------------------------|
+-- | supplier_key  | BIGINT        | Surrogate key for supplier dimension             |
+-- | supplier_id   | NVARCHAR(20)  | Supplier business ID                             |
+-- | supplier_name | NVARCHAR(50)  | Supplier company name                            |
+-- | country       | NVARCHAR(50)  | Supplier country (e.g., Ghana, United States)   |
+-- | ratings       | INT           | Supplier performance rating (e.g., 4, 5)        |
+--
+-- ---
+
+
+
+-- ## View: gold.dim_returns
+--Provide description about returns  and thier attributes
+--
+-- | Column Name | Data Type    | Description                                      |
+-- |-------------|--------------|--------------------------------------------------|
+-- | return_key  | BIGINT       | Surrogate key for returns dimension              |
+-- | return_id   | NVARCHAR(20) | Return transaction ID                            |
+-- | order_id    | NVARCHAR(20) | Related order ID                                 |
+-- | return_date | DATE         | Return date (e.g., 2026-02-11)                  |
+-- | reason      | NVARCHAR(50) | Return reason (e.g., Defective)                 |
+--
+-- ---
+
+
+
+-- ## View: gold.inventory_movement
+-- Provide description about inventory movement and thier attributes
+-- | Column Name   | Data Type    | Description                                      |
+-- |---------------|--------------|--------------------------------------------------|
+-- | movement_key  | BIGINT       | Surrogate key for inventory movement             |
+-- | movement_id   | NVARCHAR(20) | Inventory transaction ID                         |
+-- | movement_type | NVARCHAR(50) | Stock movement type (e.g., IN, OUT)             |
+-- | quantity      | INT          | Quantity moved                                   |
+-- | movement_date | DATE         | Movement date (e.g., 2026-03-20)                |
+--
+-- ---
+
+
+
+-- ## View: gold.fact_orders
+-- Provide description about orders and thier attributes
+--
+-- | Column Name      | Data Type     | Description                                              |
+-- |------------------|---------------|----------------------------------------------------------|
+-- | order_id         | NVARCHAR(20)  | Unique sales order identifier                            |
+-- | customer_id      | NVARCHAR(20)  | Customer business ID                                     |
+-- | customer_name    | NVARCHAR(50)  | Customer name                                            |
+-- | country          | NVARCHAR(50)  | Customer country (e.g., Ghana, United Kingdom)          |
+-- | product_name     | NVARCHAR(50)  | Product purchased (e.g., Laptop, Keyboard)              |
+-- | product_category | NVARCHAR(50)  | Product category (e.g., Electronics, Furniture)         |
+-- | quantity         | INT           | Quantity sold                                            |
+-- | unit_price       | INT           | Selling price per product                                |
+-- | total_revenue    | INT           | Revenue generated                            |
+-- | order_date       | DATE          | Order transaction date (e.g., 2026-04-05)               |
+--
+
+-- **Author:** Asante Collins
+-- Self-taught data professional passionate about data engineering,
+-- analytics, and building scalable real-world data solutions.

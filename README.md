@@ -107,6 +107,7 @@ Data quality checks are performed before loading into the Silver layer:
 ## 👤 Author
 
 **Asante Collins**
+
 Self-taught data professional passionate about data engineering, analytics, and building real-world data solutions through hands-on projects. Focused on developing practical skills in SQL, Python, Power BI, and modern data architecture while continuously learning industry best practices 
 
 ## 📄 License

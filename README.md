@@ -1,6 +1,6 @@
-# 🚀 Supply Chain Data Warehouse (SQL Server Project)
+# Supply Chain Data Warehouse 
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates the design and implementation of a **data warehouse** using SQL Server, focusing on building a structured ETL pipeline from raw data to clean, reliable datasets.
 
@@ -8,27 +8,8 @@ The project integrates data from multiple source systems (ERP & CRM) and applies
 
 ---
 
-## 🏗️ Architecture
 
-The project follows a layered approach:
-
-### 🥉 Bronze Layer (Raw Data)
-
-* Data loaded directly from CSV files
-* No transformations applied
-* Stores raw data as received from source systems
-
-### 🥈 Silver Layer (Cleaned Data)
-
-* Data is cleaned and standardized
-* Duplicate records removed
-* Inconsistent values corrected
-* Data types converted (e.g., text → numeric)
-* Ready for analytical use
-
----
-
-## 📂 Data Sources
+## Data Sources
 
 ### CRM System
 
@@ -41,16 +22,6 @@ The project follows a layered approach:
 * Products
 * Suppliers
 * Inventory Movements
-
----
-
-##  Data Generation
-
-Data for this project is generated using Python and the Faker library to simulate realistic ERP and CRM systems.
-
-* Synthetic data mimics real-world scenarios
-* Includes messy data (nulls, duplicates, inconsistent values)
-* Helps practice real data cleaning and transformation tasks
 
 ---
 
@@ -91,18 +62,9 @@ Data quality checks are performed before loading into the Silver layer:
 * SQL Server
 * T-SQL (Stored Procedures, Window Functions)
 * CSV Files (Source Data)
-* Python (Faker for data generation)
 
 ---
 
-## 📊 Key Features
-
-* Structured ETL pipeline (Bronze → Silver)
-* Realistic messy data simulation
-* Data cleaning and transformation logic
-* Execution time tracking
-
----
 
 ## 👤 Author
 
